@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-4"></div>
+        <div class="col-4">
+            <div class="shadow m-5 rounded-5 pt-5 -3">
+                <div class="d-flex justify-content-center">
+                    <i class="fa-solid fa-building-columns fa-xl mt-3 me-2"></i>
+                    <h3>Login</h3>
+                </div>
+                <div class="px-5 p-2">
+                    <form action="">
+                    <input id="accountNo" class="form-control mt-3" type="number" placeholder="Account Number">
+                    <input id="password" class="form-control mt-3" type="password" placeholder="Password">
+                    <div class="d-flex justify-content-center">
+                        <button class="btn btn-primary mt-4 mb-2 w-25 text-center p-1 " onclick="loginAccount(event)" type="button">Login</button>
+                    </div>
+                    <p class="text-center mt-2">Doesn't have an account? <text class="text-primary" type="button" onclick="register()">Register</text></p>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</body>
+<script src="login.js"></script>
+</html>
